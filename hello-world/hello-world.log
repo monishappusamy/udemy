@@ -1,0 +1,6 @@
+17:34:32,851 DEBUG SQL:109 - insert into message (TEXT) values (?)
+17:34:32,869 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [JBOSS Logging Library with Log4j in Action, r2]
+17:36:03,977 DEBUG SQL:109 - insert into message (TEXT) values (?)
+17:36:03,992 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [JBOSS Logging Library with Log4j in Action, r2]
+17:49:38,259 DEBUG SQL:109 - insert into message (TEXT) values (?)
+17:49:38,277 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [JBOSS Logging Library with Log4j in Action, r3]
