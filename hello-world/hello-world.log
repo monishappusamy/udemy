@@ -4,3 +4,16 @@
 17:36:03,992 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [JBOSS Logging Library with Log4j in Action, r2]
 17:49:38,259 DEBUG SQL:109 - insert into message (TEXT) values (?)
 17:49:38,277 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [JBOSS Logging Library with Log4j in Action, r3]
+19:26:13,400 DEBUG SQL:109 - select message0_.ID as ID1_0_0_, message0_.TEXT as TEXT2_0_0_ from message message0_ where message0_.ID=?
+19:26:13,433 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+19:34:21,587 DEBUG SQL:109 - select message0_.ID as ID1_0_0_, message0_.TEXT as TEXT2_0_0_ from message message0_ where message0_.ID=?
+19:34:21,604 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+19:34:21,637 DEBUG SQL:109 - update message set TEXT=? where ID=?
+19:34:21,638 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello Automatic Dirty Checking]
+19:34:21,638 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [2]
+19:34:59,480 DEBUG SQL:109 - select message0_.ID as ID1_0_0_, message0_.TEXT as TEXT2_0_0_ from message message0_ where message0_.ID=?
+19:34:59,495 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+19:41:13,849 DEBUG SQL:109 - select message0_.ID as ID1_0_0_, message0_.TEXT as TEXT2_0_0_ from message message0_ where message0_.ID=?
+19:41:13,863 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+19:41:13,889 DEBUG SQL:109 - delete from message where ID=?
+19:41:13,889 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
